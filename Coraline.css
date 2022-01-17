@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: max-content;
+}
+
+img {
+    height: 40vh;
+    margin-top: 30vh;
+    display: inline-block;
+    min-height: 30vh;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    img{
+        display: block;
+        width: 50vh;
+        height: auto;
+        margin-left: 25vh;
+        margin-top: 0%;
+    }
+    
+}
+
+
